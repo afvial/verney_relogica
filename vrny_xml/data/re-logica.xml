@@ -299,14 +299,18 @@
       </div>
       <div type="section" n="4">
 	<head>
+	  <w lemma="" pos="">CAPVT</w>
+	  <w lemma="" pos="">IIII</w>
+	</head>
+	<head>
 	  <w lemma="" pos="">De</w>
 	  <w lemma="" pos="">logica</w>
 	  <w lemma="" pos="">Christianorum</w>
 	  <w lemma="" pos="">et</w>
 	  <w lemma="" pos="">Arabum</w>
 	</head>
-	<p>
-	  <s>
+	<p xml:id="lattb.14875">
+	  <s xml:id="lattb.14875.1">
 	    <w lemma="" pos="">Hi</w>
 	    <w lemma="" pos="">sunt</w>
 	    <w lemma="" pos="">celebriores</w>
@@ -330,7 +334,7 @@
 	    <w lemma="" pos="">usque</w>
 	    <w lemma="" pos="">aetatem</w><pc type="period">.</pc>
 	  </s>
-	  <s>
+	  <s xml:id="lattb.14875.2">
 	    <w lemma="" pos="">Singulari</w>
 	    <w lemma="" pos="">tamen</w>
 	    <w lemma="" pos="">fato</w>
@@ -362,6 +366,8 @@
 	    <w lemma="" pos="">dialecticam</w>
 	    <w lemma="" pos="">fuerint</w>
 	    <w lemma="" pos="">secuti</w><pc type="period">.</pc>
+	  </s>
+	  <s xml:id="lattb.14875.3">
 	    <w lemma="" pos="">Caussa</w><note n="5" place="bottom" type="editorial">[6]</note>
 	    <w lemma="" pos="">hac</w>
 	    <w lemma="" pos="">fuit</w><pc type="period">.</pc>
@@ -369,7 +375,16 @@
 	</p>
       </div>
       <div type="section" n="5">
-
+	<head>
+	  <w lemma="" pos="">De</w>
+	  <w lemma="" pos="">logica</w>
+	  <w lemma="" pos="">scholasticorum</w>,
+	  <w lemma="" pos="">et</w>
+	  <w lemma="" pos="">tentata</w>
+	  <w lemma="" pos="">a</w>
+	  <w lemma="" pos="">quibusdam</w>
+	  <w lemma="" pos="">emendatione</w>
+	</head>
       </div>
       <div type="section" n="6">
 

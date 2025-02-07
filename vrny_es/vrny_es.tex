@@ -1,60 +1,245 @@
 \documentclass{article}
 \usepackage{paracol}
+%\twosided[pc]
+% \footnotelayout{p}
+%\usepackage{lipsum}
+\usepackage[spanish]{babel}
+\usepackage[twoside]{geometry}
+\usepackage{sectsty}
+\geometry{left=20mm, right=20mm}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\sectionfont{\fontsize{12}{15}\selectfont}
+\subsectionfont{\fontsize{10}{15}\selectfont}
 
 \begin{document}
-
-\begin{paracol}{2}
-  
-  \subsection*{VI}
-
-  \switchcolumn
-
-  \subsection*{VI}
-
-  \switchcolumn
-  
-  Peripateticorum caput est Aristoteles Stagirites, Platonis auditor, qui Logicam artem fuse persecutus est ut optime de illa meritus habeatur. Sane reliquis qui post fuere, plurimam lucem adtulit. Conscripsit CXXIII libros de re logica, quorum praecipui desiderantur; XVI tantummodo exstant.
-
-  \switchcolumn
-
-  La cabeza de los peripatéticos es Aristóteles el Estagirita, discípulo de Platón, quien el arte lógico extensamente persiguió\footnote{... expuso}, por lo tanto es correcto que sobre ella\footnote{..., sobre la lógica.} se lo considere merecedor\footnote{... o creador}. Claramente produjo muchísima luz en el resto\footnote{... de autores} que después existieron. Escribió 123 libros sobre la cosa lógica, de los cuales los más especiales\footnote{... o importantes} están extraviados; solamente 16 subsisten.
-
-\end{paracol}
-
+\begin{paracol}{3}
+  \begin{nthcolumn*}{0} % Título [la]
+    \subsection*{\centering CAPVT III}
+    \subsection*{\centering De logicae origine apud Graecos} 
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % Título [pt]
+    \subsection*{\centering CAPÍTULO III}
+    \subsection*{\centering A origem da lógica entre os Gregos}
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % Título [es]
+    \subsection*{\centering CAPÍTULO III}
+    \subsection*{\centering El origen de la lógica entre los griegos} 
+  \end{nthcolumn}
 \vspace{0.5cm}
-
-\begin{paracol}{2}
-
-  hola que tal
-
-  \switchcolumn
-
-  hola
-
+  \begin{nthcolumn*}{0} % I.a [la]
+    I. Eorum uero, qui praecepta ad ordinem redegerunt, primus, quantum ex Historia possumus definire, fuit Zeno Eleates, Parmenidis auditor, adoptione filius, qui floruit Olympiade LXXVIIII. Sed qualis fuerit hominis dialectice, nescimus. Tantum nos docent ueteres eum tradidisse quasdam regulas consecutionum, dialogos primum scripsisse, docuisse, uel saltim auxisse artem Eristicam seu contendendi. Merito ut suspicemur, Zenonem laqueorum uel inuentorem, uel amplificatorem fuisse, nihil amplius.    
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % I.a [pt]
+    I. Entre os que ordenaram verdadeiramente os preceitos da lógica, o primeiro – tanto quanto podemos concluir pela história\footnote[16]{Aristóteles, em Laércio, liv. IX, s. 27; Laércio, Vita Zenonis; Sexto Empírico, Aduersus Mathematicos, liv. VII, sec. 7. Ver Gassendi, De Origine et Varietate Logicae, cap. 2.} – foi Zenão de Eleia, discípulo e filho adoptivo de Parménides, o qual floresceu na septuagésima Olimpíada. Desconhecemos, porém, a natureza da sua dialéctica. Os antigos apenas referem que ele deu a conhecer certas regras das consequências, que escreveu primeiramente diálogos e que ensinou ou pelo menos desenvolveu a arte erística ou da disputa. É com razão que conjecturamos ter sido Zenão o inventor ou o que desenvolveuas subtilezas sofísticas, e apenas isso.    
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % I.a [es]
+    I. Entre los que verdaderamente ordenaron los preceptos de la lógica, el primero –según podemos concluir de la historia 16– fue Zenón de Eleia, discípulo e hijo adoptivo de Parménides, que floreció en la septuagésima Olimpiada. Sin embargo, no sabemos la naturaleza de su dialéctica. Los antiguos sólo mencionan que dio a conocer ciertas reglas de consecuencias, que fue el primero en escribir diálogos y que enseñó o al menos desarrolló el arte de la erística o la disputa. Con razón conjeturamos que Zenón fue el inventor o quien desarrolló las sutilezas sofísticas, y eso es todo.    
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.a [la]
+    II. Eodem tempore quo Eleatici philosophi pro cauillationibus et acuminibus sudabant, aliam logicae methodum excogitauit Socrates Atheniensis: uir ille sumus de quo scriptores cum ethnici, tum nostri ad unum omnes dicunt nullum exstitisse philosophum qui eum redderet iudicii soliditate ac utilitate praeceptorum. 
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.a [pt]
+    II. Na mesma época em que os filósofos eleatas destilavam subtilezas e sofismas, o ateniense Sócrates inventou outro método para a lógica. Ele foi um varão eminente,a respeito do qual todos os autores, tanto pagãos como cristãos, declararam sem excepção nunca ter existido nenhum filósofo que se lhe assemelhe pela solidez do discernimento e pela utilidade das suas doutrinas.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.a [es]
+    II. Al mismo tiempo que los filósofos eleáticos destilaban sutilezas y sofismas, el ateniense Sócrates inventó otro método para la lógica. Fue un hombre eminente, sobre el cual todos los autores, tanto paganos como cristianos, declararon sin excepción que nunca había habido ningún filósofo que se le pareciera en la solidez de su discernimiento y la utilidad de sus doctrinas.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.b [la]
+    Florebat Socrates tempore quo Graecia sophistis abundabat\footnote[16]{Aristoteles apud Laërtium, lib. IX, sect. 27; Laërt. in \emph{Vita Zenonis}; Sext. Empiricus, \emph{Aduersus Mathematicos}, lib. VII, sect. 7. Vide Gassend. \emph{De Origine et Varietate Logicae}, cap. 2.}; nimirum hominibus, qui se scire gloriabantur, quod re ipsa nesciebant, ac uerbis obscuris, eruditionem magnam prae se ferentibus, re autem uera omni potestate uacuis, imperitis imponebant; perinde quasi rerum omnium perceptam animo cognitionem haberent, ac uerbis illis suis arroganter pollicebantur, posse se efficere, ut caussa inferior dicendo superior euaderet. Horum superbiam ut retunderet, factus a natura Socrates uidebatur; ceterisque monstrauit uiam qua possent sophistarum cauillationes facillime confutari.\footnote[17]{Protagoras Abderites, Prodicus Chius, Gorgias Leontinus, Hippias Eleus, Thrasymachus,
+    alii, de quibus Philostratus in \emph{Vitis Sophistarum}, et Eunapius de eodem argumento.}
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.b [pt]
+    Sócrates floresceu na época em que existiam na Grécia muitos sofistas\footnote[17]{Protágoras de Abdera, Pródico de Cós, Górgias de Leontinos, Hípias de Élide, Trasímaco e outros, aos quais Filóstrato, em \emph{Vida dos Sofistas}, e Eunápio se referem acerca do mesmo assunto.} ou pessoas que se vangloriavam de conhecer o que realmente desconheciam, iludindo os ignorantes com palavras obscuras que ostentavam grande erudição, sendo,porém, desprovidos de verdadeiro talento. Igualmente, como se tivessem conhecimento de todas as coisas, eles asseveravam com arrogância serem capazes de advogar com as suas palavras uma causa mais débil, tornando-a mais consistente. Sócrates parecia incumbido pela natureza para debelar essa arrogância, tendo dado a conhecer aos outros o caminho pelo qual pudessem ser refutadas muito facilmente as subtilezas dos sofistas.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.b [es]
+    Sócrates floreció en una época en la que había muchos sofistas en Grecia\footnote[17]{Protágoras de Abdera, Pródico de Cos, Gorgias de Leontino, Hipias de Élide, Trasímaco y otros, a los que Filóstrato, en \emph{La Vida de los Sofistas}, y Eunapio se refieren aproximadamente al mismo sujeto.} o personas que se jactaban de saber lo que en realidad no sabían, engañando los ignorantes de palabras oscuras que hacían alarde de gran erudición, pero carecían de verdadero talento. Asimismo, como si tuvieran conocimiento de todas las cosas, afirmaban con arrogancia que eran capaces de defender con sus palabras una causa más débil, haciéndola más coherente. Sócrates parecía tener la tarea de superar esta arrogancia por naturaleza, habiendo dado a conocer a los demás la manera en que las sutilezas de los sofistas podían ser refutadas muy fácilmente.    
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.c [la]
+    Atque uir ille sapientissimus acumine summo ingenii artem quandam excogitauit, quae eo magis efficax est, quo minus praefert artificium. Nam non aperto Marte inimicum aggrediebatur, uerum dextere manuducebat, ut errorem suum fateretur. Quod ut facilius consequeretur, mellito sermone, multo lepore et summa dexteritate Socrates utebatur, tarditati suae tribuens, quod ea non adsequeretur quae aduersarius suus plane intelligeret.\footnote[18]{“De se ipse detrahens in disputatione, plus tribuebat iis quos uolebat refellere, donec eos propriis uerbis conuicisset.”, \emph{Cicero, Academicæ}, lib . III, cap. 5.} Interim nihil dubium, nihil obscurum relinquebat, sed omnia sibi distincte explicari postulabat; ac ex eo, quod sibi ille dederat, quicum disputabat, aliquid conficiebat; quod ille ex eo, quod iam concessisset, necessario approbare deberet.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.c [pt]
+    Este varão sapientíssimo também inventou com suma agudeza de espírito uma
+    certa arte que é tanto mais eficaz quanto menos manifesta artimanha. Com efeito, ele não empreendia abertamente a contenda com o opositor, mas guiava-o habilmente pela mão para ele reconhecer os seus erros. Para alcançar isso com maior facilidade, Sócrates servia-se de uma linguagem aprazível, de muito humor e de extrema sagacidade, atribuindo à sua lentidão de espírito não conseguir entender o que o seu opositor compreendia com clareza.\footnote[18]{...text} Contudo, por vezes nada admitia que fosse duvidoso e obscuro, solicitando que tudo lhe fosse explicado nitidamente; e com base naquilo que tinha sido concedido por quem argumentava, concluía algo que deveria ser necessariamente aceite com fundamento naquilo que ele já tinha admitido.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.c [es]
+    Este hombre muy sabio también inventó, con gran agudeza mental, un
+    cierto arte que es a la vez más eficaz y menos manifiestamente astuto.   En efecto, no entró abiertamente en conflicto con el oponente, sino que lo guió hábilmente de la mano para que reconozca sus errores. Para lograr esto con mayor soltura, Sócrates utilizó un lenguaje agradable, mucho humor y extrema sagacidad, atribuyendo a su lentitud mental el hecho de que era incapaz de entender lo que su oponente entendía claramente.\footnote[18]{...text} Sin embargo, a veces no admitía nada que fuera dudoso y oscuro, solicitando que todo le fuera explicado con claridad; y basándose en lo concedido por quienes argumentaban, concluyó algo que necesariamente debía aceptarse en base a lo que ya había admitido.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.d [la]
+    Quod si aduersarius interrogationibus fatigatus indignabatur, Socrates humanissime respondebat paratum se esse adsentiri ueritati, modo eam perspicue intelligerer. Coactus igitur sophista tacebat, et qui aderant ridebant hominis impudentiam, quod ea obtruderet arroganter, quae nec ipse, qui opponebat, intelligeret.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.d [pt]
+    Porém, se o opositor, importunado, se exasperasse, Sócrates respondia muito humanamente estar disposto a dar assentimento à verdade, contando que a entendesse com muita clareza. Mas o sofista, constrangido, alava-se, e os que estavam presentes escarneciam da impudência do indivíduo por pretender arrogantemente obrigar a aceitar aquilo que nem ele próprio, que objectava, entendia.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.d [es]
+    Sin embargo, si el oponente acosado se exasperaba, Sócrates respondía muy estar humanamente dispuesto a asentir a la verdad, siempre que la comprenda muy claramente. Pero el sofista, avergonzado, guardó silencio, y los presentes se burló del descaro del individuo por pretender arrogantemente forzar aceptando lo que ni siquiera él mismo, que se oponía, comprendía.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.e [la]
+    Itaque Socratica disputandi ratio in hoc uersabatur, ut perpetua ironia utens res disperse et diffuse dictas inductione cogeret, et sub unum adspectum subiiceret.\footnote[19]{Cicero, \emph{De Inuentione}, lib. I, cap. 31.} Id ut tutius adsequeretur. 1. Vocabula omnia definiebat, ne ex ambiguo loqueretur. 2. Ex iis quae ab aduersario explicata erant, alias propositiones per necessariam consecutionem ducebat, donec ad praecipitium hominem duceret. 3. Inductione, quae erant dicta colligebat, quo planius ostenderet pro qua parte ueritas staret.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.e [pt]
+    Portanto, o método socrático da disputa, servindo-se de uma ironia contínua, consistia em inferir por indução coisas já estabelecidas aqui e ali e prolixamente, e em apresentá-las sob um único aspecto.\footnote[19]{...text} Para alcançar isso com maior segurança, Sócrates procedia deste modo: 1. definia todos os vocábulos para não se exprimir de maneira equívoca; 2. com base nas proposições que eram expostas pelo opositor, deduzia outras segundo uma consequência necessária até conduzir o indivíduo ao precipício; 3. inferia por indução o que tinha sido já estabelecido para manifestar com maior clareza em que parte estava a verdade.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.e [es]
+    Por tanto, el método socrático de disputa, utilizando la ironía continua,
+consistía en inferir por inducción cosas ya establecidas aquí y allá y prolijamente, y presentarlos bajo un solo aspecto.\footnote[19]{...text} Para lograrlo con mayor seguridad, Sócrates procedió de esta manera: 1. definió todas las palabras para no expresarse equívocamente; 2. con base en las proposiciones que fueron expuestas por el oponente, dedujo otras según una consecuencia necesaria hasta conducir al individuo a la precipicio; 3. inferir por inducción lo que ya se había establecido para manifestar con mayor claridad dónde está la verdad.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.f[la]
+    Porro Socrates, qui mirissimus erat et prorsus factus ut homines ad se ipsos minutulis interrogatiunculis reuocaret, hac methodo tanto cum operae pretio usus est, ut Sophistarum confringeret impudentiam et inscitiam patefaceret. Quod ipsi exitiale fuit; namque inuidum illud et ambitiosum hominum genus mortem Philosopho machinatum est.\footnote[20]{Xenophon, \emph{Apologia}; Laërtius, lib. II, sect. 42.}
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.f [pt]
+    Por outro lado, Sócrates, que era muito afável e muito hábil para levar a reflectir as pessoas com pequeníssimas perguntas, serviu-se deste método com tanta eficácia que demoliu a impudência dos sofistas e demonstrou a sua ignorância. Isto foi para eles funesto, pois essa espécie invejosa e pretensiosa de indivíduos maquinou a morte da filosofia.\footnote[20]{...text}
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.f [es]
+    En cambio, Sócrates, que era muy afable y muy hábil para hacer pensar con preguntas muy pequeñas, utilizó este método con tanta eficacia que derribó el descaro de los sofistas y demostró su ignorancia. Esto fue desastroso para ellos, ya que esta especie de individuos envidiosos y pretenciosos planearon la muerte de la filosofía.\footnote[20]{...text}
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % II.g [la]
+    Ab Socrate plurimae philosophorum familiae profectae sunt; nam illius discipuli aliis et aliis in locis scholas aperuerunt. Nos eos tantum commemorabimus qui artem Logicam excoluerunt, ut Academici, Megarici, Cyrenaici, peripatetici, stoici.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % II.g [pt]
+    Foi de Sócrates que procederam muitas gerações de filósofos. Na verdade, foram estabelecidas em diversos lugares escolas de discípulos seus. Irei mencionar apenas os que cultivaram a arte lógica, como os académicos, os megáricos, os cirenaicos, os peripatéticos e os estóicos.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % II.g [es]
+    De Sócrates procedieron muchas generaciones de filósofos. De hecho, se establecieron escuelas de sus discípulos en diferentes lugares. sólo mencionaré aquellos que cultivaron el arte de la lógica, como los académicos, los megarianos, los cirenaicos, los peripatéticos y los estoicos.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % III.a [la]
+    III. Academicorum princeps fuit Plato Atheniensis, Socratis auditor. Hic uero funesto praeceptoris casu edoctus, qui ab Atheniensibus philosophiae caussa occisus fuerat, dedita opera sententiam suam colloquiorum specie inuoluit, ut tot colloquentium interpellationibus lector occupatus, quid ille sentiat, discernere non possit.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % III.a [pt]
+    III. O príncipe dos académicos foi o ateniense Platão, discípulo de Sócrates. Tendo tomado conhecimento da morte sinistra do mestre, que tinha sido executado pelos atenienses por causa da sua filosofia, ocultou intencionalmente as suas opiniões numa espécie de colóquios para que o leitor, absorto com tantas interpelações dos colóquios, não pudesse perceber claramente o que ele pensava.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % III.a [es]
+    III. El príncipe de los académicos fue el ateniense Platón, discípulo de Sócrates. Al enterarse de la siniestra muerte del maestro, que había sido ejecutado por los atenienses a causa de su filosofía, ocultó intencionadamente sus opiniones en una especie de coloquios para que el lector, absorto en tantas preguntas de los coloquios, no pudiera entender claramente lo que pensaba.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % III.b [la]
+    Platonis autem dialecticae haec ratio est. Diuidere rem, de qua disputatur; tum definire, ac nomina imponere; postremo inductione quaedam inferre.\footnote[21]{In \emph{Theet}. Tom. I, p. 146; \emph{Politico}., Tom. II, p. 262, \emph{Phaedro}, Tom. III, p. 266.} Ad haec nominum origines studiose perscrutari.\footnote[22]{In \emph{Cratylo}, Tom. I, p. 383.} Fallacias quoque, quae ratiocinationes uitiant, obseruare.\footnote[23]{In \emph{Euthydemo}, immo et in \emph{Sophista}, Tom. I} Haec uero non ordine exposuit, sed sparsim ut occasio fuit: non syllogismis, sed interrogationibus confecit; ac in dialogis suis horum omnium usum
+    demonstrauit. Immo in \emph{Cratylo} ait eum esse bonum dialecticum qui bene interrogare et bene respondere nouerit. Itaque Platonis logica reapse erat Socratica. Interdum tamen quaedam, sed astute, definiebat; idque in Academia fere semper obtinuit.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % III.b [pt]
+    O método da dialéctica de Platão era o seguinte: dividir o assunto sobre o qual discorria; definir e impor os nomes; por último, inferir certas consequências por indução.\footnote[21]{...text} Além disso, investigar cuidadosamente a origem dos nomes\footnote[22]{...text} e examinar com diligência as falácias que viciam os raciocínios.\footnote[23]{...text} Porém, ele não expôs estes assuntos ordenadamente, mas de modo avulso segundo o ensejo, e não inferiu servindo-se de silogismos, mas de interpelações, tendo manifestado nos seus diálogos o uso de todos estes procedimentos. Mais ainda, ele afirma no Crátilo que um bom dialéctico é aquele que sabe interrogar e responder convenientemente. Por consequência, a lógica de Platão era realmente uma lógica socrática. Contudo, ele expunha por vezes com sagacidade certos assuntos, tendo quase sempre procedido desse modo na Academia.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % III.b [es]
+    El método dialéctico de Platón era el siguiente: dividir el tema sobre el que discutía; definir e imponer nombres; por último, inferir ciertas consecuencias por inducción.\footnote[21]{...text} Además, investigue cuidadosamente el origen de los nombres\footnote[22]{...text} y examine diligentemente las falacias que contaminan el razonamiento.\footnote[23]{...text} Sin embargo, no explicaba estas materias de manera ordenada, sino separadamente según la ocasión, y no hacía inferencias mediante silogismos, sino mediante interpelaciones, habiendo demostrado en sus diálogos el uso de todos estos procedimientos. Además, afirma en el Crátilo que un buen dialéctico es aquel que sabe interrogar y responder adecuadamente. En consecuencia, la lógica de Platón era en realidad una lógica socrática. Sin embargo, a veces explicaba ciertos temas con sagacidad, y casi siempre lo hacía en la Academia.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % IIII. [la]
+    IIII. Megaricorum conditor Euclides Megarensis, et is Socratis discipulus. Hic rixandi uiam, et uafras quaestiunculas nectendi, quam ab Eleaticis philosophis didicerat,\footnote[24]{Walchius, \emph{Historia Logicae}, § III.} quaque in Graecia sophistae delectabantur, ut erat ingenio acri et acuto, mirifice auxit et primus in artem reduxit. Dialogis utebatur, ac frequentibus consecutionibus “ergo”, “ergo”, “ergo”, id quod proposuerat, conficiebat.\footnote[25]{Baelius, \emph{Dictionnaire}, uerbo \emph{Euclides}.} Hoc erat hominis ingenium, ad discordiam in disputando et cauillationes paene factum. Quod studium, qui ei in schola successerunt, plurimis additis laqueis ac sophismatis amplificarunt, sed quae adeo erant inepta, ut uel tiro oculatus nullo negotio ea solueret. Sane nihil hoc nomine Euclidi debemus: quippe qui tot fallacias introducens, de logica arte male meritus est.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % IIII.a [pt]
+    IV. Euclides de Mégara foi fundador da escola megárica e discípulo de Sócrates. Sendo dotado de talento penetrante e subtil, desenvolveu admiravelmente o método das disputas e as questiúnculas astuciosas da maquinação que aprendera com os filósofos eleatas\footnote[24]{...text} e com as quais se deleitavam os sofistas gregos, tendo sido ele o primeiro a convertê-las em arte. Ele servia-se do diálogo e de consequências continuadas – como “portanto”, “portanto”, “portanto” –, concluindo dessa forma o que tinha exposto.\footnote[25]{...text} Era esta a índole de um indivíduo nascido para a dissensão nas disputas e para as cavilações. Os que lhe sucederam na escola desenvolveram esta propensão com o acrescentamento de muitas subtilezas e de muitos sofismas. Estes eram, porém, tão enfadonhos que até um principiante esclarecido os solucionaria sem dificuldade. Por esta razão, nada devemos decerto a Euclides, visto que, por ele ter exposto tantos sofismas, é indigno da arte lógica.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % IIII.a [es]
+    IV. Euclides de Megara fue el fundador de la escuela megárica y discípulo de Sócrates. Dotado de un talento penetrante y sutil, desarrolló admirablemente el método de las disputas y las astutas cuestiones de maquinación que había aprendido de los filósofos eleáticos\footnote[24]{...text} y que deleitaban a los sofistas griegos, y fue el primero en convertirlos en arte. Utilizó el diálogo y continuó las consecuencias –como “por lo tanto”, “por lo tanto”, “por lo tanto”–, concluyendo así lo que había expuesto.\footnote[25]{...text} Esta era la naturaleza de un individuo nacido para disentir en disputas y para cavilaciones. Quienes lo siguieron en la escuela desarrollaron esta propensión con la adición de muchas sutilezas y muchos sofismas. Estos, sin embargo, eran tan tediosos que incluso un principiante ilustrado podría resolverlos sin dificultad. Por esta razón, ciertamente no le debemos nada a Euclides, ya que, por exponer tantos sofismas, es indigno del arte de la lógica.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % V. [la]
+    V. Cyrenaici auctorem habent Aristippum, Cyrene Africae urbe natum, qui Athenas ueniens Socratis audiendi caussa, philosophiae hoc doctore una cum aliis operam dedit. Deinde post uarias peregrinationes Athenis ludum aperuit,\footnote[26]{Laërtius, lib. II, s. 62.} ex cuius patria “Cyrenaici” philosophi appellati sunt. Hic Socraticam philosophandi methodum secutus, morali philosophiae addiscendae potissimum animum intendit, uerumtamen rationalem non est adspernatus.\footnote[27]{Laërtius, s. 92.} Haec autem logica in hoc uersabatur ut de criteriis ueritatis praesertim ageret; quae in adfectionibus animi, hoc est in sensu doloris et uoluptatis, posita esse putabant Cyrenaici.\footnote[28]{Ex ueteribus illorum Logicam exponit Sextus Empiricus, \emph{Aduersus Mathematicos}, lib. VIII, s. 191, seqq. Ex recent. Christ. Thomasius, \emph{Introductio in Philosophiam Rationalem}, cap. 6.}
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % V.a [pt]
+    V. Os cirenaicos têm como fundador Aristipo, natural de Cirene, em África,que foi para Atenas com o intuito de ouvir Sócrates, tendo seguido atentamente as lições deste preceptor juntamente com outros discípulos seus. Após isso, depois de várias longas viagens, abriu uma escola em Atenas\footnote[26]{...text} e, em virtude do seu país natal, os filósofos da escola foram denominados “cirenaicos”. Ele adoptou o método socrático de filosofar e dedicou-se sobretudo a aprender filosofia moral, não votando, porém, ao desprezo a racional.\footnote[27]{...text} No entanto, a sua lógica ocupava-se principalmente dos critérios da verdade, que os cirenaicos pensavam consistir nas disposições do espírito, isto é, nas sensações da dor e do prazer.\footnote[28]{Sexto Empírico expõe a lógica com base nesses antigos (ver \emph{Aduersus Mathematicos}, liv.
+    VIII, s. 191 e segs.). Entre os modernos, ver Christian Thomasius, \emph{Introductio in Philosophiam Rationalem}, cap. 6.}
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % V.a [es]
+    V. Los cirenaicos tienen por fundador a Aristipo, natural de Cirene, en África, que fue a Atenas con la intención de escuchar a Sócrates, habiendo seguido atentamente las lecciones de este preceptor junto con otros discípulos suyos. Posteriormente, tras varios largos viajes, abrió una escuela en Atenas\footnote[26]{...text} y, debido a su país natal, los filósofos de la escuela fueron llamados “Cirenaicos”. Adoptó el método socrático de filosofar y se dedicó sobre todo a aprender filosofía moral, sin por ello dejar de lado la filosofía racional.\footnote[27]{...text} Sin embargo, su lógica se ocupaba principalmente de los criterios de la verdad, que los cirenaicos pensaban que consistían en las disposiciones del espíritu, es decir, las sensaciones de dolor y placer.\footnote[28]{...text}
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % VI.a [la]
+    VI. Peripateticorum caput est Aristoteles Stagirites, Platonis auditor, qui Logicam artem fuse persecutus est ut optime de illa meritus habeatur. Sane reliquis qui post fuere, plurimam lucem adtulit. Conscripsit\footnote[29]{Videatur Franciscus Patricius, \emph{Discussiones Peripateticae}, Tom. I.} CXXIII libros de re logica, quorum praecipui desiderantur; XVI tantummodo exstant.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % VI.a [pt]
+    VI. O chefe dos peripatéticos é Aristóteles de Estagira, discípulo de Platão, que expôs extensamente a arte lógica, sendo considerado com razão o seu criador. Ele proporcionou sem dúvida muita ilustração para os outros que lhe sucederam. E escreveu cento e vinte e três livros de lógica,\footnote[29]{Ver Francesco Patrizzi, \emph{Discussiones Peripateticae}, t. I.} dos quais se perderam os mais importantes, subsistindo apenas dezasseis.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % VI.a [es]
+    VI. El jefe de los peripatéticos es Aristóteles de Estagira, discípulo de Platón, que expuso extensamente sobre el arte de la lógica y es considerado con razón su creador. Sin duda, proporcionó muchos ejemplos para otros que lo siguieron. Y escribió ciento veintitrés libros de lógica,\footnote[29]{...text} de los cuales los más importantes se perdieron, quedando sólo dieciséis.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % VI.b [la]
+    In primo, qui \emph{Categoriarum} inscribitur, de iis tractat quae spectant ad ideas rerum in ordinem reducendas. \emph{Peri hermeneias} I, deinde, in quo explicat uim nominum et uerborum quae ad propositiones componendas sunt necessaria. Praeterea II \emph{Priorum Analyticorum}, in quibus de syllogismo generatim disputat II \emph{Posteriorum Analyticorum}, in quibus de syllogismo demonstratiuo. His addit \emph{Topicorum} libros VIII, id est, argumentorum sedes tradit, ex quibus argumenta sumi debent ad probabilia quaeque probanda. Reliqui sunt \emph{Elenchorum} libri II, id est, laqueorum, quibus Sophistae utuntur ut alios capiant. Haec \emph{Organum} Aristotelis appellant.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % VI.b [pt]
+    No primeiro livro, denominado \emph{Categorias}, ele trata dos assuntos respeitantes ao encadeamento das ideias das coisas. No \emph{Peri Hermeneias} (um livro), examina a combinação dos termos e das palavras, que são necessárias para a formação das proposições. Nos dois livros dos \emph{Primeiros Analíticos}, discorre genericamente sobre o silogismo. Nos dois livros dos \emph{Segundos Analíticos}, estuda o silogismo demonstrativo. A estes acrescenta os oito livros dos Tópicos, onde refere as sedes dos argumentos com base nas quais estes devem ser estabelecidos para demonstrar todos os  assuntos prováveis. Os restantes são os dois livros dos \emph{Elencos}, relativos aos estratagemas de que os sofistas se servem para seduzirem os outros. Estas matérias denominam-se “o \emph{Organon} de Aristóteles”.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % VI.b [es]
+    En el primer libro, llamado \emph{Categorías}, trata cuestiones relativas a la cadena de ideas de las cosas. En \emph{Peri Hermeneias} (un libro), examina la combinación de términos y palabras, que son necesarios para la formación de proposiciones. En los dos libros de los \emph{Primeros Análisis}, habla en general del silogismo. En los dos libros de los \emph{Segundos Análisis} estudia el silogismo demostrativo. A éstos añade los ocho libros de \emph{Tópicos}, donde menciona los asientos de los argumentos sobre cuya base deben establecerse para demostrar todas las cuestiones probables. El resto son los dos libros de las \emph{Elencos}, relativos a las estratagemas que utilizan los sofistas para seducir a los demás. Estos materiales se denominan “\emph{Organon} de Aristóteles”.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % VI.c [la]
+    Quae debemus Aristoteli haec sunt. In prima parte \emph{Logices} docet nos ideas, quas habemus, ad ordinem referre, nominibus insignire, quo expeditius utamur in fabricandis syllogismis. In altera parte exponit quam uarie uocabula in propositionibus sita sint; quaenam illa sunt; quae uniuersales aut particulares ideas designant; et quot genera propositionum inde nascantur. In tertia enumerat copiose modos quibus propositiones copulari possunt, ut fiant syllogismi; adeoqueartem syllogisticam accurate, quamuis obscure, edisserit. Itaque logica Aristotelis pro scopo habet rectum syllogismum facere.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % VI.c [pt]
+    É o seguinte o que devemos a Aristóteles: na primeira parte da Lógica, ele ensina-nos a ordem das ideias que possuímos e a designá-las pelos nomes para mais expeditamente nos servimos delas na construção dos silogismos; na segunda parte, ele expõe quão diferentemente estão dispostos os vocábulos nas proposições, qual a sua natureza, que ideias universais ou particulares significam e quantas espécies de proposições se originam neles; na terceira parte, ele refere copiosamente os modos segundo os quais podem associar-se as proposições para resultarem os silogismos, tendo por isso estabelecido com diligência a arte silogística, embora confusamente. Portanto, a lógica de Aristóteles tem como escopo a construção do verdadeiro silogismo.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % VI.c [es]
+    Lo que le debemos a Aristóteles es lo siguiente: en la primera parte de la Lógica, nos enseña el orden de las ideas que poseemos y cómo designarlas con nombres para los utilizamos más rápidamente en la construcción de silogismos; en el segundo Por otro lado, expone cuán diferente están dispuestas las palabras en las proposiciones, cuál es su naturaleza, qué ideas universales o particulares significan y cuántos tipos de proposiciones se originan en ellas; En la tercera parte, se refiere abundantemente a las formas en que las proposiciones pueden asociarse para dar lugar a silogismos, habiendo establecido así diligentemente el arte de la silogística, aunque de forma confusa. Por tanto, la lógica de Aristóteles pretende construir el verdadero silogismo.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % VI.d [la]
+    Reprehenditur autem Aristoteles multis nominibus. Principio non docet quomodo singula et recte et facile percipiamus, erroresque uitemos in ideis comparandis. Illud autem peccat magis quod uocabulis pro lubitu utitur; iisque, quasi essent rerum ideae, omnia definit. Nam, ut scite Clercius,\footnote[30]{\emph{Logica}, Praef., n. 4} \emph{Isagoge} Porphyrii, et \emph{Categoriae} erant nihil aliud quam lexicon, cuius ope nomina quaedam rebus tribuebant; et memoriter ex regulis seu ueris seu falsis ratiocinabantur. Adeo res omnibus notas,
+quasi reconditam doctrinam, uenditabant peripatetici.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % VI.d [pt] 
+    Deve, porém, criticar-se Aristóteles por muitas razões. Em primeiro lugar, ele não ensina como conhecemos com segurança e facilidade cada uma das coisas e como evitamos os erros na aquisição das ideias. Ele incorre, no entanto, mais ainda em censura por se servir de vocábulos segundo o seu arbítrio e definir por meio deles todas as coisas como se fossem ideias das coisas. Com efeito, como afirma habilmente Clerk,\footnote[30]{\emph{Logica}, Prefácio, n. 4.} a \emph{Isagoge} de Porfírio e as \emph{Categorias} são apenas um léxico por meio do qual se atribuem certos nomes às coisas e se raciocina com a ajuda da memória com base em princípios tanto verdadeiros como falsos. Por isso, os peripatéticos ostentavam conhecimentos que todos possuíam, como se fossem um saber recôndito.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % VI.d [es] 
+    Sin embargo, hay que criticar a Aristóteles por muchas razones. En primer lugar, no enseña cómo conocemos cada cosa de forma segura y sencilla y cómo evitar errores en la adquisición de ideas. Incurre, sin embargo, en mayor censura aún por usar las palabras según su voluntad y definir todas las cosas a través de ellas como si fueran ideas de cosas. De hecho, como afirma hábilmente Clerk,\footnote[30]{...text} La \emph{Isagoge} y las \emph{Categorías} de Porfirio son simplemente un léxico a través del cual se dan ciertos nombres a las cosas y se razonan con la ayuda de la memoria basándose en principios tanto verdaderos como falsos. Por eso, los peripatéticos se jactaban de un conocimiento que todos poseían, como si fuera un conocimiento oculto.
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn*}{0} % VI.e [la]
+    Culpatur secundo quod abrupto sermone et constructione uocum a uulgari Graecorum longe diuersa usus fuerit, breuiter ac obscure dedita opera scripserit,\footnote[31]{Gellius, lib. XX, c. 5.} uocabula non definierit. Saepe eodem nomine res diuersas, saepe uaria nomina eidem rei tribuit. Interdum uocibus utitur, quibus nulla significandi potestas subiicitur. Homo enim gloriae plus, quam par erat, cupidus, cum systema nouum uellet condere et praeter ceteros acumine praedicari, ueterum philosophorum sententias corrupit ac mutilauit, quo facilius eorum dogmata carperet. Cumque meliores excogitare non posset, ad sacram ancoram confugit, nempe ad uerba incertae significationis, et uniuersalia et noua, quibus cogitata sua occultaret, et ineruditis egregie imponeret, suspicantibus aliquid et nouum et exquisitum iis uerborum inuolucris contineri 32. Quod ii solum negabunt qui numquam Aristotelem libero iudicio legerunt.
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % VI.e [pt] 
+    
+  \end{nthcolumn}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{2} % VI.e [es] 
+    
+  \end{nthcolumn}
 \end{paracol}
-
-\begin{paracol}{2}
-
-  \subsection*{VIII}
-
-  \switchcolumn
-
-  \subsection*{VIII}
-
-  \switchcolumn
-
-  Post hos uenit Epicurus Atheniensis, qui Xenocratem et Pamphilum Platonicos et Theophrastum peripateticum et Nausiphanem Pyrrhoni discipulum audiuit, a quo Pyrrhoniorum dogmata accepit. Quidquid uero Academici et stoici, Epicureorum obtrectatores, dixerint de Epicuro, id certum nobis est, ueterum neminem cum ipso esse comparandum; adeo praeclara sunt hominis in artem logicam merita. Quod et Cl. Walchius, qui hanc historiam contexuit, profitetur; immo uero illius Canonica, quam refert Laërtius, quale hominis fuerit ingenium, quam acre iudicium, luculenter demonstrat.
-
-  \switchcolumn
-
-  Luego de esos (filósofos) vino Epicuro de Atenas, quien escuchó a los platónicos Jenócrates y Pánfilo de Samos, al peripatético Teofrasto, y a Nausífanes, discípuo de Pirron, por quien acepto los dogmas.
-
-  \switchcolumn
-
-
-  Sane Epicurus garrulitatis stoicorum pertaesus, et ineptas cauillationes reiiciens, in quibus ipsi impudenter exsultabant, perinde quasi praeter ceteros et eruditione et ingenii acumine pollerent; paucos canones collegit de perspicuitate sermonis, et recto ordine ratiocinandi, eosque sophistis opposuit; quod sibi persuasit nihil aliud requiri, ut tirones, si illos recte perciperent, stoicorum uafris quaestiunculis occurrerent, eorumque iactantiam labefactarent. Et quamquam nec de recte instituenda ratiocinatione, nec de cauendis fallaciis data opera disputet, quod ipsum animaduertendum est, fatendum est tamen suum illi studium feliciter successisse.
-
-\end{paracol}
-
 \end{document}
-

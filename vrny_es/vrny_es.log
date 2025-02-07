@@ -1,13 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.6)  26 JAN 2025 06:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.2.2)  7 FEB 2025 17:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**vrny_es.tex
-(./vrny_es.tex
+**/home/afvial/Documents/filosofía/verney/re-logica/files/vrny_es/vrny_es.tex
+(/home/afvial/Documents/filosofía/verney/re-logica/files/vrny_es/vrny_es.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -23,8 +22,7 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2018/12/31 v1.35 
 \pcol@currcol=\count193
 \pcol@nextcol=\count194
@@ -51,133 +49,146 @@ Package: paracol 2018/12/31 v1.35
 \pcol@tempboxb=\box56
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks16
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen146
+\l@unhyphenated=\language11
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count270
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count271
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count269
+\l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box57
+) (./vrny_es.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
-(./vrny_es.aux)
 \openout1 = `vrny_es.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=556.47656pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
-
-Overfull \hbox (18.8058pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10 La cabeza de los peri-pat^^Seticos es Arist^^Soteles
- []
-
-
-Overfull \hbox (0.86145pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10 el Es-ta-girita, disc^^S^^Ppulo de Plat^^Son, quien
- []
-
-
-Overfull \hbox (1.56042pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10 se lo con-sidere mere-ce-dor[]. Clara-mente
- []
-
-
-Overfull \hbox (0.16705pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/10 diuit, a quo Pyrrho-nio-rum dog-mata ac-
- []
-
-
-Overfull \hbox (2.72255pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/10 ici, Epi-cure-o-rum ob-trec-ta-tores, dix-erint
- []
-
-
-Overfull \hbox (6.05585pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/10 de Epi-curo, id cer-tum no-bis est, ueterum
- []
-
-
-Overfull \hbox (6.27803pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/10 de Ate-nas, quien es-cuch^^So a los plat^^Sonicos
- []
-
-
-Overfull \hbox (17.91702pt too wide) in paragraph at lines 50--51
-\OT1/cmr/m/n/10 pat^^Setico Te-ofrasto, y a Naus^^S^^Pfanes, disc^^S^^Ppuo
- []
-
-
-Overfull \hbox (4.58365pt too wide) in paragraph at lines 55--56
-[]\OT1/cmr/m/n/10 Sane Epi-cu-rus gar-ruli-tatis sto-ico-rum
- []
-
-
-Overfull \hbox (1.61139pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 sulta-bant, perinde quasi praeter ceteros
- []
-
-
-Overfull \hbox (10.33365pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 et eru-di-tione et in-genii acumine pollerent;
- []
-
-
-Overfull \hbox (14.72256pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 sibi per-su-a-sit ni-hil al-iud re-quiri, ut tirones,
- []
-
-
-Overfull \hbox (8.0836pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 si il-los recte perciper-ent, sto-ico-rum uafris
- []
-
-
-Overfull \hbox (6.1856pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 iac-tan-tiam labefactar-ent. Et quamquam
- []
-
-
-Overfull \hbox (12.11147pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10 est, fa-ten-dum est tamen suum illi studium
- []
-
+(Font)              <6> on input line 39.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./vrny_es.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] (./vrny_es.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
 Here is how much of TeX's memory you used:
- 1109 strings out of 477916
- 19336 string characters out of 5837424
- 1859330 words of memory out of 5000000
- 21323 multiletter control sequences out of 15000+600000
- 514715 words of font info for 40 fonts, out of 8000000 for 9000
- 85 hyphenation exceptions out of 8191
- 34i,9n,38p,692b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on vrny_es.pdf (2 pages, 60857 bytes).
+ 3243 strings out of 477902
+ 54280 string characters out of 5836864
+ 1873330 words of memory out of 5000000
+ 23420 multiletter control sequences out of 15000+600000
+ 516058 words of font info for 44 fonts, out of 8000000 for 9000
+ 87 hyphenation exceptions out of 8191
+ 57i,9n,62p,1134b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on vrny_es.pdf (9 pages, 144554 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
