@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -413,13 +413,13 @@
           </p>
         </div>
       </div> 
-      <div type="section" n="4">
+      <div type="section" n="4"> <!--De logica Christianorum et Arabum-->
         <head>
           <w lemma="" pos="">De</w>
           <w lemma="" pos="">logica</w>
-	  <w lemma="" pos="">Christianorum</w>
-	  <w lemma="" pos="">et</w>
-	  <w lemma="" pos="">Arabum</w>	  
+          <w lemma="" pos="">Christianorum</w>
+          <w lemma="" pos="">et</w>
+          <w lemma="" pos="">Arabum</w>	  
         </head>
         <p xml:id="lattb.14875">
           <s xml:id="lattb.14875.1">
@@ -497,105 +497,105 @@
           <w lemma="" pos="">quibusdam</w>
           <w lemma="" pos="">emendatione</w>
         </head>
-	<p>
-	  <s>
-	    <w lemma="" pos="">Ab</w>
-	    <w lemma="" pos="">his</w>
-	    <w lemma="" pos="">scholastici</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">seu</w>
-	    <w lemma="" pos="">Christiani</w>
-	    <w lemma="" pos="">Occidentis</w>
-	    <w lemma="" pos="">philosophi</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">Aristotelis</w>
-	    <w lemma="" pos="">libros</w>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">eorum</w>
-	    <w lemma="" pos="">interpretationes</w>
-	    <w lemma="" pos="">saeculo</w>
-	    <w lemma="" pos="">XII</w>
-	    <w lemma="" pos="">accepere</w><pc type="period">.</pc>
-	  </s>
-	  <s>
-	    <w lemma="" pos="">Verum</w>
-	    <w lemma="" pos="">cum</w>
-	    <w lemma="" pos="">eamdem</w>
-	    <w lemma="" pos="">uiam</w>
-	    <w lemma="" pos="">quam</w>
-	    <w lemma="" pos="">Arabes</w>
-	    <w lemma="" pos="">insisterent</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">atque</w>
-	    <w lemma="" pos="">ex</w>
-	    <w lemma="" pos="">nimio</w>
-	    <w lemma="" pos="">dialecticae</w>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">metaphysicae</w>
-	    <w lemma="" pos="">contentiosae</w>
-	    <w lemma="" pos="">studio</w>
-	    <w lemma="" pos="">apti</w>
-	    <w lemma="" pos="">non</w>
-	    <w lemma="" pos="">essent</w>
-	    <w lemma="" pos="">Aristoteli</w>
-	    <w lemma="" pos="">dilucidando</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">logicam</w>
-	    <w lemma="" pos="">obscuram</w>
-	    <w lemma="" pos="">illam</w>
-	    <w lemma="" pos="">quidem</w>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">intricatam</w>
-	    <w lemma="" pos="">nouis</w>
-	    <w lemma="" pos="">acuminibus</w>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">laqueis</w>
-	    <w lemma="" pos="">implicarunt</w><pc type="period">.</pc>
-	  </s>
-	  <s>
-	    <w lemma="" pos="">Nam</w>
-	    <w lemma="" pos="">cum</w>
-	    <w lemma="" pos="">Graecum</w>
-	    <w lemma="" pos="">contextum</w>
-	    <w lemma="" pos="">non</w>
-	    <w lemma="" pos="">legerent</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">aut</w>
-	    <w lemma="" pos="">ignoratione</w>
-	    <w lemma="" pos="">Graeci</w>
-	    <w lemma="" pos="">sermonis</w>
-	    <w lemma="" pos="">intelligere</w>
-	    <w lemma="" pos="">non</w>
-	    <w lemma="" pos="">possent</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">quae</w>
-	    <w lemma="" pos="">utiliora</w>
-	    <w lemma="" pos="">in</w>
-	    <w lemma="" pos="">Aristotele</w>
-	    <w lemma="" pos="">erant</w>
-	    <w lemma="" pos="">neglexerunt</w><pc type="comma">,</pc>
-	    <w lemma="" pos="">tantum</w>
-	    <w lemma="" pos="">sophisticen</w>
-	    <w lemma="" pos="">coluerunt</w>
-	    <w lemma="" pos="">et</w>
-	    <w lemma="" pos="">ampliarunt</w><pc type="period">.</pc>
-	  </s>
-	  <s>
-	    <w lemma="" pos="">Quo</w>
-	    <w lemma="" pos="">quantum</w>
-	    <w lemma="" pos="">damni</w>
-	    <w lemma="" pos="">disciplinae</w>
-	    <w lemma="" pos="">omnes</w>
-	    <w lemma="" pos="">fecerint</w>,
-	    <w lemma="" pos="">etiam</w>
-	    <w lemma="" pos="">in</w>
-	    <w lemma="" pos="">praesentia</w>
-	    <w lemma="" pos="">non</w>
-	    <w lemma="" pos="">sine</w>
-	    <w lemma="" pos="">animi</w>
-	    <w lemma="" pos="">dolore</w>
-	    <w lemma="" pos="">experimur</w>.
-	  </s>
-	  <s>
-	    <w lemma="" pos="">Quare</w> tametsi “Aristotelicorum” nomen sibi sumserunt,[5] nihil minus erant quam
-Aristotelici, si unum et item alterum excipias, qui sapientius ceteris disputauit.
-	  </s>
-	</p>
+        <p>
+          <s>
+            <w lemma="" pos="">Ab</w>
+            <w lemma="" pos="">his</w>
+            <w lemma="" pos="">scholastici</w><pc type="comma">,</pc>
+            <w lemma="" pos="">seu</w>
+            <w lemma="" pos="">Christiani</w>
+            <w lemma="" pos="">Occidentis</w>
+            <w lemma="" pos="">philosophi</w><pc type="comma">,</pc>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">Aristotelis</w>
+            <w lemma="" pos="">libros</w>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">eorum</w>
+            <w lemma="" pos="">interpretationes</w>
+            <w lemma="" pos="">saeculo</w>
+            <w lemma="" pos="">XII</w>
+            <w lemma="" pos="">accepere</w><pc type="period">.</pc>
+          </s>
+          <s>
+            <w lemma="" pos="">Verum</w>
+            <w lemma="" pos="">cum</w>
+            <w lemma="" pos="">eamdem</w>
+            <w lemma="" pos="">uiam</w>
+            <w lemma="" pos="">quam</w>
+            <w lemma="" pos="">Arabes</w>
+            <w lemma="" pos="">insisterent</w><pc type="comma">,</pc>
+            <w lemma="" pos="">atque</w>
+            <w lemma="" pos="">ex</w>
+            <w lemma="" pos="">nimio</w>
+            <w lemma="" pos="">dialecticae</w>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">metaphysicae</w>
+            <w lemma="" pos="">contentiosae</w>
+            <w lemma="" pos="">studio</w>
+            <w lemma="" pos="">apti</w>
+            <w lemma="" pos="">non</w>
+            <w lemma="" pos="">essent</w>
+            <w lemma="" pos="">Aristoteli</w>
+            <w lemma="" pos="">dilucidando</w><pc type="comma">,</pc>
+            <w lemma="" pos="">logicam</w>
+            <w lemma="" pos="">obscuram</w>
+            <w lemma="" pos="">illam</w>
+            <w lemma="" pos="">quidem</w>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">intricatam</w>
+            <w lemma="" pos="">nouis</w>
+            <w lemma="" pos="">acuminibus</w>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">laqueis</w>
+            <w lemma="" pos="">implicarunt</w><pc type="period">.</pc>
+          </s>
+          <s>
+            <w lemma="" pos="">Nam</w>
+            <w lemma="" pos="">cum</w>
+            <w lemma="" pos="">Graecum</w>
+            <w lemma="" pos="">contextum</w>
+            <w lemma="" pos="">non</w>
+            <w lemma="" pos="">legerent</w><pc type="comma">,</pc>
+            <w lemma="" pos="">aut</w>
+            <w lemma="" pos="">ignoratione</w>
+            <w lemma="" pos="">Graeci</w>
+            <w lemma="" pos="">sermonis</w>
+            <w lemma="" pos="">intelligere</w>
+            <w lemma="" pos="">non</w>
+            <w lemma="" pos="">possent</w><pc type="comma">,</pc>
+            <w lemma="" pos="">quae</w>
+            <w lemma="" pos="">utiliora</w>
+            <w lemma="" pos="">in</w>
+            <w lemma="" pos="">Aristotele</w>
+            <w lemma="" pos="">erant</w>
+            <w lemma="" pos="">neglexerunt</w><pc type="comma">,</pc>
+            <w lemma="" pos="">tantum</w>
+            <w lemma="" pos="">sophisticen</w>
+            <w lemma="" pos="">coluerunt</w>
+            <w lemma="" pos="">et</w>
+            <w lemma="" pos="">ampliarunt</w><pc type="period">.</pc>
+          </s>
+          <s>
+            <w lemma="" pos="">Quo</w>
+            <w lemma="" pos="">quantum</w>
+            <w lemma="" pos="">damni</w>
+            <w lemma="" pos="">disciplinae</w>
+            <w lemma="" pos="">omnes</w>
+            <w lemma="" pos="">fecerint</w>,
+            <w lemma="" pos="">etiam</w>
+            <w lemma="" pos="">in</w>
+            <w lemma="" pos="">praesentia</w>
+            <w lemma="" pos="">non</w>
+            <w lemma="" pos="">sine</w>
+            <w lemma="" pos="">animi</w>
+            <w lemma="" pos="">dolore</w>
+            <w lemma="" pos="">experimur</w>.
+          </s>
+          <s>
+            <w lemma="" pos="">Quare</w> tametsi “Aristotelicorum” nomen sibi sumserunt,[5] nihil minus erant quam
+            Aristotelici, si unum et item alterum excipias, qui sapientius ceteris disputauit.
+          </s>
+        </p>
       </div>
       <div type="section" n="6">
         
