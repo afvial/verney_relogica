@@ -1,0 +1,5 @@
+.vscode
+vrny_xml/node_modules
+vrny_xml/package-lock.json 
+vrny_xml/package.json
+vrny_xml/tei_lite.rnc

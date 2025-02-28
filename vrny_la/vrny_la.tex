@@ -1,0 +1,41 @@
+\documentclass{article}
+%\usepackage[provide=*]{babel}
+\usepackage{paracol}
+%\twosided[pc]
+% \footnotelayout{p}
+%\usepackage{lipsum}
+\usepackage[spanish]{babel}
+\usepackage[twoside]{geometry}
+\usepackage{sectsty}
+\geometry{left=20mm, right=20mm}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\sectionfont{\fontsize{12}{15}\selectfont}
+\subsectionfont{\fontsize{10}{15}\selectfont}
+
+\begin{document}
+\begin{paracol}{2} % CAPVT III - De logicae origine apud Graecos
+  \begin{nthcolumn*}{0} % Título [la]
+    \subsection*{\centering CAPVT III}
+    \subsection*{\centering De logicae origine apud Graecos} 
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % Título [es]
+    \subsection*{\centering CAPÍTULO III}
+    \subsection*{\centering El origen de la lógica entre los griegos} 
+  \end{nthcolumn}
+\vspace{0.5cm}
+\begin{nthcolumn*}{0} % I.a [la]
+    I. Eorum uero, qui praecepta ad ordinem redegerunt, primus, quantum ex Historia possumus definire, fuit Zeno Eleates, Parmenidis auditor, adoptione filius, qui floruit Olympiade LXXVIIII. Sed qualis fuerit hominis dialectice, nescimus. Tantum nos docent ueteres eum tradidisse quasdam regulas consecutionum, dialogos primum scripsisse, docuisse, uel saltim auxisse artem Eristicam seu contendendi. Merito ut suspicemur, Zenonem laqueorum uel inuentorem, uel amplificatorem fuisse, nihil amplius.    
+  \end{nthcolumn*}
+  \vspace{0.5cm}
+  \begin{nthcolumn}{1} % I.a [es]
+    De aquellos que verdaderamente condujeron los preceptos hacia el orden, en tanto podemos definir desde la  historia, fue Zenón de Elea, discípulos [e] hijo en adopción de Parménides, quién floreció en la septuagésima novena Olimpaiada. Sin embargo, desconocemos cuál fuera la dialéctica del hombre. 
+  \end{nthcolumn}
+  \vspace{0.5cm}
+\end{paracol}
+\end{document}
+
+
